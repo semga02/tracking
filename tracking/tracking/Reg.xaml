@@ -1,0 +1,25 @@
+﻿<Page x:Class="tracking.Reg"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tracking"
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="Reg" Height="612">
+
+    <Grid Height="615" VerticalAlignment="Top">
+        <TextBox x:Name="LastNameBox" HorizontalAlignment="Left" Margin="55,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="33"/>
+        <TextBox x:Name="FirstNameBox" HorizontalAlignment="Left" Margin="55,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="33"/>
+        <TextBox x:Name="PatronymicBox" HorizontalAlignment="Left" Margin="55,291,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211" Height="33"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Margin="377,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Height="34"/>
+        <TextBox x:Name="passBox" HorizontalAlignment="Left" Margin="377,296,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Height="33"/>
+        <Label Content="Регистрация" HorizontalAlignment="Left" Foreground="White" FontSize="24" Margin="263,22,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Foreground="white" FontSize="18" Margin="55,73,0,0" VerticalAlignment="Top" Width="131"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Foreground="white" FontSize="18" Margin="47,157,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Foreground="white" FontSize="18" Margin="47,252,0,0" VerticalAlignment="Top" Width="134"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Foreground="white" FontSize="18" Margin="377,161,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Foreground="white" FontSize="18" Margin="377,262,0,0" VerticalAlignment="Top" Width="112"/>
+        <Button Content="Создать аккаунт" HorizontalAlignment="Left" Margin="221,403,0,0" VerticalAlignment="Top" Background="#FF38AF45" Foreground="White" FontSize="22" Width="232"/>
+
+    </Grid>
+</Page>
